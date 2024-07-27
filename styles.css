@@ -1,0 +1,171 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #01193c; /* Dark blue background */
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background: #01193c; /* Slightly lighter blue for navigation */
+    display: flex;
+    justify-content: center;
+    padding: 0.5em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background: #012648;
+    color: #fff;
+}
+
+main {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    margin-bottom: 1em;
+}
+
+h2 {
+    border-bottom: 2px solid #002d72;
+    padding-bottom: 0.5em;
+    margin-bottom: 1.5em;
+    color: #002d72;
+}
+
+.section {
+    margin-bottom: 2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #002d72;
+}
+
+form input, form button {
+    margin-bottom: 1em;
+    padding: 0.75em;
+    border-radius: 4px;
+}
+
+form input {
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #002d72;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #003c8f;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 1em 0;
+}
+
+ul li a {
+    color: #002d72;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #0056a6;
+}
+
+footer {
+    background: #002d72;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Specific Styles for Team Page */
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+    padding: 1em;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 1em;
+}
+
+.team-member div {
+    max-width: 500px;
+}
+
+.team-member h3 {
+    margin-bottom: 0.5em;
+    color: #003c8f;
+}
+
+.team-member p {
+    color: #666;
+}

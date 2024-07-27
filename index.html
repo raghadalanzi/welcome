@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our AWS Services</h1>
+    </header>
+    <nav>
+        <a href="index.html">Login</a>
+        <a href="services.html">Services</a>
+        <a href="support.html">Support</a>
+        <a href="team.html">Our Team</a>
+    </nav>
+    <main>
+        <section class="introduction">
+            <h2>About Our Services</h2>
+            <p>Our platform provides various cloud services similar to AWS, including Amazon S3 for storage, Amazon EC2 for computing, and AWS Lambda for serverless functions. These services help you manage your data efficiently, scale your applications seamlessly, and run code without managing servers. Join us today to explore the benefits!</p>
+        </section>
+        <section class="login">
+            <h2>Login to Your Account</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // Placeholder for authentication logic
+            window.location.href = 'services.html';
+        });
+    </script>
+</body>
+</html>
